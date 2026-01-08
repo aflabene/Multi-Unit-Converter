@@ -1,0 +1,25 @@
+# --- INTERACTIVE UNIT CONVERTER ---
+
+print("Welcome to the Professional Converter!")
+print("1: Temperature (Celsius to Fahrenheit)")
+print("2: Distance (Kilometers to Miles)")
+
+# Get the user's choice
+choice = input("Choose an option (1 or 2): ")
+
+if choice == "1":
+    print("\n--- Temperature Conversion ---")
+    celsius = float(input("Enter temperature in Celsius: "))
+    fahrenheit = (celsius * 1.8) + 32
+    print(f"{celsius} degrees Celsius is equivalent to {fahrenheit} degrees Fahrenheit")
+
+elif choice == "2":
+    print("\n--- Distance Conversion ---")
+    kilometers = float(input("Enter distance in Kilometers: "))
+    miles = kilometers * 0.621371
+    print(f"{kilometers} km is equivalent to {miles:.2f} miles")
+
+else:
+    print("Invalid option! Please run the program again and choose 1 or 2.")
+
+print("\nThank you for using the converter!")
