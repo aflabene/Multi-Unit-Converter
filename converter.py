@@ -7,13 +7,13 @@ print("-" * 30)
 celsius = float(input("Enter temperature in Celsius: "))
 fahrenheit = (celsius * 1.8) + 32
 
-print(f{celsius}°C is equivalent to {fahrenheit}°F")
+print(f"{celsius} degrees Celsius is equivalent to {fahrenheit} degrees Fahrenheit")
 print("-" * 30)
 
 # 2. Distance Conversion (Kilometers to Miles)
 kilometers = float(input("Enter distance in Kilometers: "))
 # 1 kilometer is approximately 0.621371 miles
-miles = kilometers 8 0.621371
+miles = kilometers * 0.621371
 
 # {miles:.2f} rounds the result to 2 decimal places
 print(f"{kilometers} km is equivalente to {miles:.2f} miles")
